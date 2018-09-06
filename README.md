@@ -1,0 +1,1 @@
+# Cordova-plugin-MaterilaStyledDialog
