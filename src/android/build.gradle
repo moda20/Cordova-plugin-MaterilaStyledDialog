@@ -1,0 +1,12 @@
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://jitpack.io"
+    }
+}
+dependencies {
+    compile 'com.github.javiersantos:MaterialStyledDialogs:2.1'
+}
+
+

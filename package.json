@@ -1,0 +1,25 @@
+{
+  "name": "cordova.plugin.materialdialogs",
+  "version": "0.1.0",
+  "description": "a Cordova plugin based on MaterialStyledDialog repository",
+  "cordova": {
+    "id": "cordova.plugin.materialdialogs",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moda20/Cordova-plugin-MaterilaStyledDialog.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "moda20",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moda20/Cordova-plugin-MaterilaStyledDialog/issues"
+  },
+  "homepage": "https://github.com/moda20/Cordova-plugin-MaterilaStyledDialog#readme"
+}

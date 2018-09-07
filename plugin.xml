@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova.plugin.materialdialogs" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>CordovaMaterialStyleDialog</name>
+    <js-module name="CordovaMaterialStyleDialog" src="www/CordovaMaterialStyleDialog.js">
+        <clobbers target="cordova.plugins.CordovaMaterialStyleDialog"/>
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="CordovaMaterialStyleDialog">
+                <param name="android-package" value="cordova.plugin.materialdialogs.CordovaMaterialStyleDialog"/>
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/CordovaMaterialStyleDialog.java"
+                     target-dir="src/cordova/plugin/materialdialogs/CordovaMaterialStyleDialog"/>
+        <framework src="com.android.support:appcompat-v7:27.1.1"/>
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+    </platform>
+</plugin>
